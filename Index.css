@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.left{
+    font-size: 2rem;
+}
+
+body{
+    background-color: rgb(137, 137, 228);
+    color: white;
+    font-family:'poppins', sans-serif;
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(169, 209, 245);
+    height: 1px;
+    margin: 30px 60px;
+}
+
+nav{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(61, 185, 235);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 20px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li a:hover{
+    color: rgb(224, 224, 170);
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+}
+.firstsection div>{
+    width: 35%;
+}
+
+.leftsection{
+    /* background-color: red; */
+    font-size: 3rem;
+    margin: 80px;
+}
+
+.purple{
+    color: rgb(123, 6, 123);
+}
+
+.rightsection img{
+    /* background-color: red; */
+    width: 70%;
+    margin: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background-color:rgb(171, 171, 235);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection .secondsection1{
+    color: rgb(48, 48, 100);
+}
+
+.secondsection .box{
+    background: white;
+    width: 100%;
+    height: 1px;
+    margin: 35px;
+    /* display: flex; */
+}
+
+.secondsection .verticle{
+    height: 200px;
+    /* width: 0px; */
+    background-color: white;
+    justify-content: space-around;
+    
+}
+.image-top{
+    width: 93px;
+    position: relative;
+    top: 20px;
+    left: 7px;
+}
+
+.verticle-title{
+    position: relative;
+    top: 78px;
+    width: 160px;
+}
+
+.verticle .verticle-discription{
+    position: relative;
+    top: 88px;
+    color: yellow;
+    width: 209px;
+    font-size: 12px;
+}
+
+.flex{
+    background-color: rgb(44, 44, 131);
+    /* height: 300px; */
+    padding: 30px;
+    
+}
+
+.flex ul{
+    list-style: none;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+flex >div{
+    width: 100px;
+}
+
+.flex .third{
+    text-align: center;
+    color: gray;
+    padding: 10px 10px;
+}
